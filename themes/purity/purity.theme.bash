@@ -38,7 +38,7 @@ function prompt_command() {
 	esac
 	scm_prompt_info="$(scm_prompt_info)"
 	venv_prompt="$(venv_prompt)"
-	PS1="\n${PURITY_THEME_PROMPT_COLOR}\w ${scm_prompt_info}\n${ret_status}${venv_prompt}"
+	PS1="\n${PURITY_THEME_PROMPT_COLOR}\w ${scm_prompt_info} ${ret_status}${venv_prompt}"
 }
 
 safe_append_prompt_command prompt_command
