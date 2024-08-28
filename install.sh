@@ -2,6 +2,7 @@
 # bash-it installer
 
 # Show how to use this installer
+#
 function _bash-it_show_usage() {
 	echo -e "\n$0 : Install bash-it"
 	echo -e "Usage:\n$0 [arguments] \n"
